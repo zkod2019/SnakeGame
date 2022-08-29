@@ -2,6 +2,8 @@ import pygame
 import time
 import random
 
+# https://www.edureka.co/blog/snake-game-with-pygame/
+# https://www.analyticsvidhya.com/blog/2021/06/gesture-controlled-video-game/
 pygame.init()
 display_width = 600
 display_height  = 600
@@ -15,7 +17,7 @@ white = (0,0,0)
 
 snake_block=10
 clock = pygame.time.Clock()
-snake_speed=30
+snake_speed=10
 
 def gameLoop():
     game_over=False
